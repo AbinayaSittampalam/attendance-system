@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>🎉 Welcome, you are logged in!</h1>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+            localStorage.removeItem('token');
+            window.location.href = "login.html";
+        }
+
+        // Optional: Prevent access if not logged in
+        if (!localStorage.getItem('token')) {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
