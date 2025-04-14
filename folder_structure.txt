@@ -1,0 +1,116 @@
+Folder PATH listing for volume Windows
+Volume serial number is 7C9E-355D
+C:.
+|   folder_structure.txt
+|   
++---.vscode
+|       settings.json
+|       
++---client
+|       app.js
+|       home.html
+|       home.js
+|       login.Html
+|       
++---docs
+|       task_1_folder_structure.png
+|       
+\---server
+    |   .gitattributes
+    |   .gitignore
+    |   HELP.md
+    |   mvnw
+    |   mvnw.cmd
+    |   pom.xml
+    |   
+    +---.mvn
+    |   \---wrapper
+    |           maven-wrapper.properties
+    |           
+    +---.vscode
+    |       settings.json
+    |       
+    +---server
+    |   \---target
+    |       \---classes
+    +---src
+    |   +---main
+    |   |   +---java
+    |   |   |   \---com
+    |   |   |       \---attendance
+    |   |   |           \---server
+    |   |   |               |   HomeController.java
+    |   |   |               |   SecurityConfig.java
+    |   |   |               |   ServerApplication.java
+    |   |   |               |   
+    |   |   |               +---controller
+    |   |   |               |       LoginController.java
+    |   |   |               |       
+    |   |   |               \---model
+    |   |   |                       LoginRequest.java
+    |   |   |                       
+    |   |   \---resources
+    |   |       |   application.properties
+    |   |       |   users.txt
+    |   |       |   
+    |   |       +---static
+    |   |       \---templates
+    |   \---test
+    |       \---java
+    |           \---com
+    |               \---attendance
+    |                   \---server
+    |                           ServerApplicationTests.java
+    |                           
+    \---target
+        |   server-0.0.1-SNAPSHOT.jar
+        |   server-0.0.1-SNAPSHOT.jar.original
+        |   
+        +---classes
+        |   |   application.properties
+        |   |   users.txt
+        |   |   
+        |   \---com
+        |       \---attendance
+        |           \---server
+        |               |   HomeController.class
+        |               |   SecurityConfig.class
+        |               |   ServerApplication.class
+        |               |   
+        |               +---controller
+        |               |       LoginController$1.class
+        |               |       LoginController.class
+        |               |       LoginRequest.class
+        |               |       
+        |               \---model
+        |                       LoginRequest.class
+        |                       
+        +---generated-sources
+        |   \---annotations
+        +---generated-test-sources
+        |   \---test-annotations
+        +---maven-archiver
+        |       pom.properties
+        |       
+        +---maven-status
+        |   \---maven-compiler-plugin
+        |       +---compile
+        |       |   \---default-compile
+        |       |           createdFiles.lst
+        |       |           inputFiles.lst
+        |       |           
+        |       \---testCompile
+        |           \---default-testCompile
+        |                   createdFiles.lst
+        |                   inputFiles.lst
+        |                   
+        +---surefire-reports
+        |       com.attendance.server.ServerApplicationTests.txt
+        |       TEST-com.attendance.server.ServerApplicationTests.xml
+        |       
+        \---test-classes
+            \---com
+                \---attendance
+                    \---server
+                            ServerApplicationTests.class
+                            
